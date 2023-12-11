@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- User's Name -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Fitness Goal -->
+    <TextView
+        android:id="@+id/goalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fitness Goal: Gain Muscle"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8dp" />
+
+    <!-- Workout Tips -->
+    <TextView
+        android:id="@+id/workoutTipsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Workout Tips:\n- Include compound exercises\n- Lift heavy weights\n- Ensure proper nutrition"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

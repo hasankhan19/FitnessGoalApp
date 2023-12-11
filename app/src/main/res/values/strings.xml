@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fitness Goal App</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click To Login</string>
+    <string name="click_to_register">Click To Register</string>
+    <string name="logout">logout</string>
+    <string name="welcome">Welcome</string>
+    <string name="user">User</string>
+    <string name="trainer">Trainer</string>
+    <string name="trainer_login">Trainer Login</string>
+    <string name="confirm_password">confirm password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

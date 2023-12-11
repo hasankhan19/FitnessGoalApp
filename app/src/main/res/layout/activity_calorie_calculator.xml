@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/daysToLoseWeightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Days to Lose Weight"
+        android:inputType="number"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (in cm)"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/daysToLoseWeightEditText"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (in kg)"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/heightEditText"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightEditText"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Calculate"/>
+
+    <TextView
+        android:id="@+id/calorieLimitTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculateButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Calorie Limit: "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/timeframeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calorieLimitTextView"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Timeframe: "
+        android:textSize="18sp"/>
+</RelativeLayout>

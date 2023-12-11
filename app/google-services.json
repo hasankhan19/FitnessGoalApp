@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "29039293829",
+    "project_id": "fitness-goal-app",
+    "storage_bucket": "fitness-goal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29039293829:android:30c9de7581b523234580ec",
+        "android_client_info": {
+          "package_name": "com.example.fitnessgoalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuveblqE2UUDbRfWfaYYakX_L3nf0iO40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
